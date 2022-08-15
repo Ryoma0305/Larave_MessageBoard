@@ -12,6 +12,8 @@
         @include('commons.navbar')
         
         <div class="container">
+            @include('commons.navbar')
+            
             @yield('content')
         </div>
         
